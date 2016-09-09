@@ -38,7 +38,7 @@ public class Main {
 		Logger  logger = Logger.getLogger(Main.class.getName());
 		logger.debug("log4j configured correctly and logger set");
 
-		logger.debug("getting session factory form HibernateUtil.java");
+		logger.debug("getting session factory from HibernateUtil.java");
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction txn = session.getTransaction();
 		
